@@ -18,3 +18,17 @@ font-family: arial;
 
 a {color: #000000
 }
+
+
+ /* Phones */
+ @media only screen and (min-width : 475px) {
+ }
+ /* Tablets */
+ @media only screen and (min-width : 768px) {
+ }
+ /* Desktops */
+ @media only screen and (min-width : 992px) {
+ }
+/*  Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
