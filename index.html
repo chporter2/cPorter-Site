@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 				 <html>
 				   <head>
+
+<ul class="nav nav-pills">
+  <li role="presentation"><a href="#Profile">Profile</a></li>
+  <li role="presentation"><a href="#Experience">Experience</a></li>
+  <li role="presentation"><a href="#Contact">Contact</a></li>
+</ul>
+
 						<Title> Chad Porter </Title>
 						<link href="css/styles.css" type="text/css" rel="StyleSheet" />
+						<!--<link href="css/bootstrap.css" type="text/css" rel="StyleSheet" />-->
 						<!--Begin Meta Tags-->
 						<Meta name="Description" content="This is resume the resume of Chad Porter">
 						<Meta name="Author" content="Chad Porter">
@@ -14,9 +22,11 @@
 						<Meta property="twitter:Description" content="Here is my resume.">
 					</head>
 				   <body>
-						<h1>All About Me </h1>
+				   <br>
+						<h1 id="Home">All About Me </h1>
 						<img src="img/ChadPic.png" alt="my pic" title="Chad Porter" />
-							<p> Hello, my name is Chad Porter and I am a Senior at The University of Toledo double majoring in Information Systems and E-commerce.  I also work full time as a consultant with Infor.  I am originally from the Toledo, OH area but I recently moved to 
+						<h2 id="Profile"> Profile</h2>
+							<p> Hello, my name is Chad Porter and I am a Senior at The University of Toledo double majoring in Information Systems and E-commerce.  I also work full time as a consultant with Infor.  <br>I am originally from the Toledo, OH area but I recently moved to 
 								<a href="https://www.google.com/maps/place/Tomball,+TX/@30.0986406,-95.6266175,13z/data=!3m1!4b1!4m2!3m1!1s0x8640cd9b23065c93:0xef63d4775526b925" target=" _blank"> Tomball, TX</a> (Houston).
 									In my spare time I enjoying doing pretty much anything outdoors like:
 							</p>
@@ -29,32 +39,47 @@
 								<li>Grilling</1i>
 								<li>Home Brewing</1i>
 								</ul>
-							<p> I am excited to learn coding as this is something that will immensely help with my current job.</p>	
-							
+							<div> I am excited to learn coding as this is something that will immensely help with my current job.</div>
+							</p>
+						<h2 id="Experience">Professional Experience</h2>	
+						<h4> ICS Consultant- Infor</h4>
+						<div><ul class ="Experience">
+						<li>Implement and support Infor Product Configuration Management (PCM) suite</li>
+						<li>Install PCM software in a variety of environments</li>
+	                    <li>Integrate PCM software suite with many popular ERP systems such as Infor SyteLine</li>
+						<li>Implement solutions to streamline product offering, customer product selection, product code creation, product visualization, dynamic BOM and routing generation, pricing, quoting, ordering, document automation, and channel management</li>
+						<li>Provide consulting services focusing on architecting solutions to solve sales, pricing, engineering, and manufacturing needs using PCM suite</li>
+						<li>Lead onsite product implementation workshops</li>
+						<li>Create training materials and curriculum while delivering onsite PCM training classes</li>
+						<li>Document business requirements, functional specifications, and test cases for software enhancements</li>
+						</ul></div>
+<!--	
+I wanted to keep the map as an example so I just commented it out rather than delete it.						
 							<p> Here is where I go to school</p>
-							<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=University%20of%20Toledo%20Engineering&key=AIzaSyDnkfCiER1O1PEsNnnarV4Et06k_KdV3tg"></iframe>
-
-
+<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=University%20of%20Toledo%20Engineering&key=AIzaSyDnkfCiER1O1PEsNnnarV4Et06k_KdV3tg"></iframe>
+-->
+						<h2 id="Contact">Contact</h2
 						<p> If you would like to contact me, Please enter your first and last name, email address, and a comment in the form below.  You can also subscribe to my E-Newsletter by clicking the 							newsletter checkbox below. </p>
 						
 						<form class="contact-form" id="form">
-						  <p class="Contactname">
+						  <Div class="Contactname">
 						   <input name="name" type="text" class="contact-input" placeholder="First and Last Name" id="name">
-						  </p>
-						  
-						  <p class="email">
+						  </div>
+						  <br>
+						  <div class="email">
 						   <input name="email" type="text" class="contact-input" id="email" placeholder="Email">
-						  </p>
-						  
-						  <p class="text"> 
+						  </div>
+						  <br>
+						  <div class="text"> 
 						   <textarea name="text" class="contact-input" id="comment" placeholder="Comments"></textarea>
-						  
-						 <p class ="checkbox"> <input type ="checkbox" value ="Newsletter" name="Newsletter" checked="checked"> E-Newsletter
+						  </div
+						 <div class ="checkbox"> <input type ="checkbox" value ="Newsletter" name="Newsletter" checked="checked"> E-Newsletter
+						 </div>
 						  </p>
 
-                                                 <p class="submit">
+                          <div class="submit">
 						   <input type="submit" value="Submit" id="button-blue">
-						  </p>
+						  </div>
 						 
 						  
 						</form>
