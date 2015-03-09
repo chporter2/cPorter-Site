@@ -12,7 +12,7 @@ body {
   height: 100%;
   margin-top: 5%
   margin-bottom: 10%;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-right: 10%;
   }
   
@@ -37,6 +37,14 @@ a {color: #000000
 }
 
 .nav-pills{background-color: #808080;
+padding: 10px;
+}
+
+li[role=presentation] {display: inline;
+margin-right: 10px;
+color: #CC0000;
+hover: color: #000000; 
+
 }
 
 #button-blue:hover {box-shadow: inset 4px 4px 4px #FFF;}
