@@ -1,43 +1,45 @@
 
 html {
-  background-color: #C5C5C7;
-  color: #CC0000;
-  padding: 15px;
+  margin: 1%;
+  color: #080808;
   font-size: 16px;
-  font-family: arial;
+  font-family: font-family: 'Bitter', serif;
+  background-color: #FFFFFF;
+ 
 }
 
 body {
-  width: 100%;
+  width: 85%;
   height: 100%;
-  margin-top: 5%
+  margin-top: 2%
   margin-bottom: 10%;
-  margin-left: 5%;
-  margin-right: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #E8E8E8;
+  padding: 3%;
+  
   }
   
-h1{
-font-family: arial;
+ img.MyPic {float: left;
+ padding-right: 30px;
+ padding-bottom: 15px;
+}
+  
+h1, h2,h3,h4{
+font-family: 'Raleway', sans-serif;
 }
 
-h2{
-font-family: arial;
-}
-
-h4{
-font-family: arial;
-}
 
 li{list-style-type: circle;
 font-size 18px;
-font-family: arial;
+font-family: font-family: 'Bitter', serif;
 }
 
 a {color: #000000
 }
 
 .nav-pills{background-color: #808080;
-padding: 10px;
+padding: 10px;font-family: 'Raleway', sans-serif;
 }
 
 li[role=presentation] {display: inline;
@@ -59,6 +61,20 @@ hover: color: #000000;
 
 #name:active {border:1px solid #3d4f8b !important;
 		background: #CC0000;
+}
+
+#email {margin: 10px;
+padding-bottom: 10px;
+}
+
+#name {margin: 10px;
+padding-bottom: 10px;
+}
+#comment {margin: 10px;
+padding-bottom: 10px;
+}
+
+.submit{margin: 10px;
 }
 
 

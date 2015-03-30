@@ -2,7 +2,7 @@ var today = new Date();
 var hour = today.getHours();
 var FullGreeting;
 
-if (hour >17) {
+if (hour >16) {
 	FullGreeting = 'Good evening and welcome to my site!';} 
 else if (hour > 12) {
 	FullGreeting = 'Good afternoon and welcome to my site!';}
