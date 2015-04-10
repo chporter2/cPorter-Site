@@ -20,8 +20,12 @@ body {
   
   }
   
+ #Experience {
+ margin-top: 10%;
+ }
+  
  img.MyPic {float: left;
- padding-right: 30px;
+ padding-right: 35px;
  padding-bottom: 15px;
 }
   
