@@ -5,8 +5,7 @@ html {
   font-size: 16px;
   font-family: font-family: 'Bitter', serif;
   background-color: #FFFFFF;
- 
-}
+ }
 
 body {
   width: 85%;
@@ -17,31 +16,15 @@ body {
   margin-right: 2%;
   background-color: #E8E8E8;
   padding: 3%;
-  
-  }
+ }
   
  #Experience {
  margin-top: 10%;
  }
-  
- img.MyPic {float: left;
- padding-right: 35px;
- padding-bottom: 15px;
- /*Width: 325px;
- Height: 420px
- */
-}
-  
-  
-h1, h2,h3,h4{
-font-family: 'Raleway', sans-serif;
-}
-
-
+ 
 li{list-style-type: circle;
 font-size 18px;
 font-family: font-family: 'Bitter', serif;
-
 }
 
 a {color: #000000
@@ -55,7 +38,6 @@ li[role=presentation] {display: inline;
 margin-right: 10px;
 color: #CC0000;
 hover: color: #000000; 
-
 }
 
 #button-blue:hover {box-shadow: inset 4px 4px 4px #FFF;}
@@ -79,6 +61,7 @@ padding-bottom: 10px;
 #name {margin: 10px;
 padding-bottom: 10px;
 }
+
 #comment {margin: 10px;
 padding-bottom: 10px;
 }
@@ -89,13 +72,66 @@ padding-bottom: 10px;
 
  /* Phones */
  @media only screen and (min-width : 475px) {
+h1, h2,h3,h4{
+font-family: 'Raleway', sans-serif;
+}
+
+li{list-style-type: circle;
+font-size 18px;
+font-family: font-family: 'Bitter', serif;
  }
+ 
+img.MyPic {float: left;
+padding-right: 20px;
+padding-bottom: 10px;
+}
+}
+
  /* Tablets */
  @media only screen and (min-width : 768px) {
+h1, h2,h3,h4{
+font-family: 'Raleway', sans-serif;
+}
+
+li{list-style-type: circle;
+font-size 18px;
+font-family: font-family: 'Bitter', serif;
  }
+img.MyPic {float: left;
+padding-right: 20px;
+padding-bottom: 10px;
+}
+}
+
  /* Desktops */
  @media only screen and (min-width : 992px) {
- }
-/*  Wide Screens */
+h1, h2,h3,h4{
+font-family: 'Raleway', sans-serif;
+}
+
+li{list-style-type: circle;
+font-size 18px;
+font-family: font-family: 'Bitter', serif;
+} 
+img.MyPic {float: left;
+padding-right: 35px;
+padding-bottom: 15px;
+}
+}
+
+ /*  Wide Screens */
 @media only screen and (min-width : 1200px) {
+h1, h2,h3,h4{
+font-family: 'Raleway', sans-serif;
+}
+
+li{list-style-type: circle;
+font-size 18px;
+font-family: font-family: 'Bitter', serif;
+}
+
+img.MyPic {float: left;
+padding-right: 40px;
+padding-bottom: 15px;
+}
 }
